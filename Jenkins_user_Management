@@ -1,0 +1,15 @@
+by default the you are the only admin user.
+To create a own user, Try the following
+Go TO
+
+Manage Jenkins -> Manage Plugins -> (Search for "Role-based Authorization Startegy") -> Install
+
+Then
+
+Manage Jenkins -> configure global security group -> (select "Role Based Startegy") apply save
+
+
+Finished
+then you will find
+Manage users 
+Manage and Assign roles
