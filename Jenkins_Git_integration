@@ -1,0 +1,13 @@
+To Integrate Git with Jenkins, Try the following
+
+ManageJenkins-> manage plugins-> "search for Git plugin" (install)
+
+To configure Git to a jenkins job
+
+Click on 
+Job->Configure->(under sourcecode management select GIT)->Git ---Give repository URL
+
+Select
+Build Trigger-> pool SCM
+and give th schedule as * * * * *
+## so whenever a git hub get commited then the jenkins run the job in local shell or bash command.
